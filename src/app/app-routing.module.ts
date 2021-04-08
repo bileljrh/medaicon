@@ -17,6 +17,7 @@ const appRoutes: Routes = [
   { path: 'about', component: AboutComponent },
   { path: 'blog', component: BlogComponent },
   { path: 'admin', component: AdminComponent },
+  { path: 'index', component: HomepageComponent },
 
 
   { path: 'dictionary', component: DictionaryComponent },
