@@ -216,10 +216,10 @@ ul.con-icons{
 .header_left ul li a:hover{
 	color: #FDA30E;
 }
-.login {
+.login2 {
     float: left;
 }
-.login ul li {
+.login2 ul li {
     list-style-type: none;
     display: inline-block;
     color: #fff;
@@ -228,12 +228,12 @@ ul.con-icons{
     padding: 4px 11px;
     margin: 12px 6px 0 0;
 }
-.login ul li a {
+.login2 ul li a {
     color: #fff;
     text-decoration: none;
 	outline:none;
 }
-.login ul li a span {
+.login2 ul li a span {
     margin-right: 8px;
     font-size: 11px;
     top: 0px;
@@ -246,11 +246,11 @@ ul.con-icons{
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-    border: none;
+    border: none !important;
 }
 .navbar-default {
-    background: none;
-    border: none;
+    background: none !important;
+    border: none !important;
 }
  /*-- agileits --*/
 .navbar {
@@ -259,13 +259,14 @@ ul.con-icons{
     margin-bottom: 0;
 }
 .navbar-default .navbar-brand {
-    color: #FDA30E;
-    font-size: 32px;
-    text-decoration: none;
-    float:  left !important;
+    color: #FDA30E !important;
+    font-size: 32px !important;
+    text-decoration: none !important;
+    float:  left  !important;
 }
 .logo {
 float: left !important;
+background-color: white !important;
 }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
     color: #FDA30E;
@@ -749,11 +750,11 @@ top: 9%;
 }
 /*-- Slider part Ends Here --*/
 
-/*-- login --*/
+/*-- login2 --*/
 .modal-body {
     padding: 15px 38px 30px;
 }
-.login-right input[type="text"] ,.login-right input[type="password"] ,.login-bottom input[type="text"] ,.login-bottom input[type="password"]{
+.login2-right input[type="text"] ,.login2-right input[type="password"] ,.login2-bottom input[type="text"] ,.login2-bottom input[type="password"]{
     width: 100%;
     padding: 10px;
     font-weight: normal;
@@ -764,17 +765,17 @@ top: 9%;
     font-size: 14px;
     margin: 6px 0 17px 0px;
 }
-.login-right input[type="text"]:hover, .login-right input[type="password"]:hover, .login-bottom input[type="text"]:hover, .login-bottom input[type="password"]:hover{
+.login2-right input[type="text"]:hover, .login2-right input[type="password"]:hover, .login2-bottom input[type="text"]:hover, .login2-bottom input[type="password"]:hover{
     border: 1px solid #FDA30E;
 }
-.login-right h4,.login-bottom h4 {
+.login2-right h4,.login2-bottom h4 {
     color: #000000;
     font-size: 14px;
     margin: 0 0 0px 0;
 	font-family: 'Lato', sans-serif;
 }
 
-.login-right input[type="submit"],.login-bottom input[type="submit"]{
+.login2-right input[type="submit"],.login2-bottom input[type="submit"]{
 	background:#7B7B7B;
     color: #fff;
     font-size: 17px;
@@ -788,7 +789,7 @@ top: 9%;
     -moz-transition: 0.5s all;
     -o-transition: 0.5s all;
 }
-.login-right input[type="submit"]:hover,.login-bottom input[type="submit"]:hover {
+.login2-right input[type="submit"]:hover,.login2-bottom input[type="submit"]:hover {
 
     background: #FDA30E;
 }
@@ -799,7 +800,7 @@ top: 9%;
 .modal-header {
     border-bottom: none;
 }
-.login-right h3 ,.login-bottom h3{
+.login2-right h3 ,.login2-bottom h3{
     color: #FDA30E;
     font-size: 22px;
     margin-bottom: 23px;
@@ -846,20 +847,20 @@ top: 9%;
 .single-bottom {
     margin:14px 0 22px;
 }
-.login-grids p{
+.login2-grids p{
 	font-size:13px;
 	text-align:center;
 	margin-top:30px;
 	color:#000;
 }
-.login-grids p a {
+.login2-grids p a {
     color: #000;
     text-decoration: none;
 }
-.login-grids p a:hover{
+.login2-grids p a:hover{
     color: #FDA30E;
 }
-/*-- //login --*/
+/*-- //login2 --*/
 /*-- banner --*/
 .banner1{
     background: url(../images/banner3.jpg) no-repeat top;
@@ -1187,15 +1188,15 @@ top: 9%;
 .capacity{
 	padding:100px 0;
 	background:#f7f7f7;
-	
-    
-	
+
+
+
 }
 .capacity2{
 	padding:100px 0;
-	background:#f7f7f7; 
-	
-    
+	background:#f7f7f7;
+
+
 		background: url(../images/banner4.jpg) no-repeat top;
 		background-size: cover;
 		-webkit-background-size: cover;
@@ -1203,8 +1204,8 @@ top: 9%;
 		-ms-background-size: cover;
 		-moz-background-size: cover;
 		min-height: 700px;
-	
-	
+
+
 }
 
 .capabil_grid1{
@@ -2114,7 +2115,10 @@ p.para_abt {
 	.map iframe {
 		min-height: 250px;
 	}
-	.header_left ul li,.login ul li {
+  .navbar-form{
+background-color: transparent !important;
+  }
+	.header_left ul li,.login2 ul li {
 		font-size: 13px;
 	}
 	.contact-grids {
@@ -2178,7 +2182,7 @@ p.para_abt {
 		float: left;
 		width: 56%;
 	}
-	.login ul li {
+	.login2 ul li {
 		margin: 9px 6px 0 0;
 	}
 	.page_head {
@@ -2341,7 +2345,7 @@ p.para_abt {
 	.header_left ul li {
 		padding: 11px 15px;
 	}
-	.login {
+	.login2 {
 		float: none;
 	}
 	.header_right {
@@ -2351,7 +2355,7 @@ p.para_abt {
 		padding: 13px 0;
 		border-top: 1px solid #7ECCEA;
 	}
-	.login ul li {
+	.login2 ul li {
 		margin: 0px 6px 0 0;
 	}
 	.banner-info h3, .banner-info2 h3 {
@@ -2524,14 +2528,14 @@ p.para_abt {
 	.modal-body {
 		padding: 15px 21px 30px;
 	}
-	.login-right input[type="text"], .login-right input[type="password"], .login-bottom input[type="text"], .login-bottom input[type="password"] {
+	.login2-right input[type="text"], .login2-right input[type="password"], .login2-bottom input[type="text"], .login2-bottom input[type="password"] {
 		padding: 6px 10px;
 		font-size: 13px;
 	}
-	.login-grids p {
+	.login2-grids p {
 		line-height: 1.8em;
 	}
-	.login-right h3, .login-bottom h3 {
+	.login2-right h3, .login2-bottom h3 {
 		font-size: 18px;
 	}
 	.pagination-lg > li > a, .pagination-lg > li > span {
@@ -2548,7 +2552,7 @@ p.para_abt {
 	.header_left ul li {
 		padding: 11px 10px;
 	}
-	.login_pop input[type="text"] {
+	.login2_pop input[type="text"] {
 		font-size: 1em;
 	}
 	.header-bottom {
@@ -2603,7 +2607,7 @@ p.para_abt {
 	}
 }
 @media (max-width: 320px){
-	.header_left ul li, .login ul li {
+	.header_left ul li, .login2 ul li {
 		font-size: 12px;
 	}
 	.header_left ul li {
@@ -2658,7 +2662,7 @@ p.para_abt {
 	.modal-dialog {
 		width: 285px;
 	}
-	.login-right h4, .login-bottom h4 {
+	.login2-right h4, .login2-bottom h4 {
 		font-size: 13px;
 	}
 	.modal-body {
