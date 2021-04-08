@@ -4,3 +4,8 @@
 .main{
     min-height: 100vh;
   }
+  .navbar-right {
+    width:25% !important;
+  }
+
+
