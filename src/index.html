@@ -6,8 +6,154 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+ <!--font user-->
+
+ <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+  function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="assets/css/jquery-ui.css" />
+<link href="assets/css/popuo-box.css" rel="stylesheet" type="text/css" media="all"/>
+<link href="assets/css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- js -->
+<script type="text/javascript" src="assets/js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="assets/js/numscroller-1.0.js"></script>
+
+<!-- //js -->
+
+
+
+
+
+<!--leaflet-->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+crossorigin="" />
+
+<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+crossorigin=""></script>
+<!--leaflet-->
+
+<link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
+<!--leaflet-->
+
+
+<!-- fonts -->
+<link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Viga' rel='stylesheet' type='text/css'>
+
+<!-- start-smoth-scrolling -->
+  <script type="text/javascript" src="assets/js/move-top.js"></script>
+  <script type="text/javascript" src="assets/js/easing.js"></script>
+  <script type="text/javascript">
+    jQuery(document).ready(function($) {
+      $(".scroll").click(function(event){		
+        event.preventDefault();
+        $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+      });
+    });
+  </script>
+<!-- start-smoth-scrolling -->
+
+<!--start-date-piker-->
+<script src="assets/js/jquery-ui.js"></script>
+  <script>
+    $(function() {
+      $( "#datepicker,#datepicker1" ).datepicker();
+    });
+  </script>
+<!--/End-date-piker-->
+<script src="assets/js/responsiveslides.min.js"></script>
+    <!--animate-->
+<link href="assets/css/animate.css" rel="stylesheet" type="text/css" media="all">
+<script src="assets/js/wow.min.js"></script>
+<script>
+   new WOW().init();
+</script>
+<!--//end-animate-->
+
+ <!--//font user-->
+
+
+  <script type="text/javascript" src="assets/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="assets/numscroller-1.0.js"></script>
+
+
+<link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Viga' rel='stylesheet' type='text/css'>
+
+
+
+
+
+    <!-- Bootstrap -->
+    <link href="assets/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="assets/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="assets/vendors/nprogress/nprogress.css" rel="stylesheet">
+    <!-- bootstrap-progressbar -->
+    <link href="assets/vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet">
+    <!-- bootstrap-daterangepicker -->
+    <link href="assets/vendors/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
+    
+    <!-- Custom Theme Style -->
+    <link href="assets/build/css/custom.min.css" rel="stylesheet">
+
+
 </head>
 <body>
   <app-root></app-root>
+
+
+<!--Dashboard-->
+
+
+  <!-- jQuery -->
+  <script src="assets/vendors/jquery/dist/jquery.min.js"></script>
+  <!-- Bootstrap -->
+  <script src="assets/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+  <!-- FastClick -->
+  <script src="assets/vendors/fastclick/lib/fastclick.js"></script>
+  <!-- NProgress -->
+  <script src="assets/vendors/nprogress/nprogress.js"></script>
+  <!-- Chart.js -->
+  <script src="assets/vendors/Chart.js/dist/Chart.min.js"></script>
+  <!-- jQuery Sparklines -->
+  <script src="assets/vendors/jquery-sparkline/dist/jquery.sparkline.min.js"></script>
+  <!-- morris.js -->
+  <script src="assets/vendors/raphael/raphael.min.js"></script>
+  <script src="assets/vendors/morris.js/morris.min.js"></script>
+  <!-- gauge.js -->
+  <script src="assets/vendors/gauge.js/dist/gauge.min.js"></script>
+  <!-- bootstrap-progressbar -->
+  <script src="assets/vendors/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
+  <!-- Skycons -->
+  <script src="assets/vendors/skycons/skycons.js"></script>
+  <!-- Flot -->
+  <script src="assets/vendors/Flot/jquery.flot.js"></script>
+  <script src="assets/vendors/Flot/jquery.flot.pie.js"></script>
+  <script src="assets/vendors/Flot/jquery.flot.time.js"></script>
+  <script src="assets/vendors/Flot/jquery.flot.stack.js"></script>
+  <script src="assets/vendors/Flot/jquery.flot.resize.js"></script>
+  <!-- Flot plugins -->
+  <script src="assets/vendors/flot.orderbars/js/jquery.flot.orderBars.js"></script>
+  <script src="assets/vendors/flot-spline/js/jquery.flot.spline.min.js"></script>
+  <script src="assets/vendors/flot.curvedlines/curvedLines.js"></script>
+  <!-- DateJS -->
+  <script src="assets/vendors/DateJS/build/date.js"></script>
+  <!-- bootstrap-daterangepicker -->
+  <script src="assets/vendors/moment/min/moment.min.js"></script>
+  <script src="assets/vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
+
+  <!-- Custom Theme Scripts -->
+  <script src="assets/build/js/custom.min.js"></script>
+
+  <script type="text/javascript" src="assets/js/bootstrap-3.1.1.min.js"></script>
+
+
+<!--//en dashboard-->
+
 </body>
 </html>

@@ -1,0 +1,118 @@
+/*-- contact --*/
+.contact{
+	background:#253b50;
+	padding-bottom:100px;
+}
+.contact-left{
+    padding:100px 0 55px;
+	float:left;
+}
+.contact-right {
+    padding:100px 0 0px 60px;
+	float:right;
+}
+.contact-left h2 ,.contact-right h3{
+    font-size: 25px;
+    color: #fff;
+}
+.contact-left p.para {
+    color: #9caec2;
+    line-height: 2.2em;
+    font-size: 15px;
+	padding-bottom:50px;
+	border-bottom:1px solid #9caec2;
+    margin-top: 30px;
+}
+.copy-right{
+    color: #9caec2;
+    font-size: 14px;
+    margin-top: 50px;	
+}
+.copy-right a {
+    color: #9caec2;
+	text-decoration:none;
+}
+.copy-right a:hover {
+	color:#FDA30E;
+}
+.strip{
+    background: #00b4f9;
+    width: 50px;
+    height: 2px;
+    margin-top: 20px;	
+}
+.contact-left {
+    border-right: 1px solid #9caec2;
+}
+.contact-right input[type="text"], .contact-right input[type="email"] {
+    border: 1px solid #fff;
+    width: 38%;
+    margin: 0 0 1.9em 0;
+    outline: none;
+    font-size: 13px;
+    color: #fff;
+    padding: 10px 12px;
+    -webkit-appearance: none;
+    background: none;
+}
+.contact-right input[type="submit"] {
+    border: none;
+    padding: 7px 0 9px;
+    width: 22%;
+    margin-top: 0px;
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 1px;
+    outline: none;
+    background: #FDA30E;
+    transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+    -ms-transition: 0.5s all ease;
+    -webkit-appearance: none;
+}
+.contact-right input[type="submit"]:hover{
+	background: #00A4E4;
+}
+.contact-right form{
+	margin-top:35px;
+}
+ul.con-icons li {
+    color: #9caec2;
+    list-style-type: none;
+    font-size: 14px;
+	display:inline-block;
+	margin-right:10px;
+}
+ul.con-icons li span {
+    top: 3px;
+    font-size: 18px;
+    margin-right: 9px;
+}
+ul.con-icons li a {
+    color: #9caec2;	
+	text-decoration:none;
+}
+ul.con-icons li a:hover {
+	color:#FDA30E;
+}
+ul.con-icons{
+	margin:30px 0;
+}
+.fb_icons{
+	margin-bottom:40px;
+}
+.fb_icons  li{
+	list-style-type:none;
+	display:inline-block;
+	margin:0 2px;
+	overflow:hidden;
+	height:32px;
+}
+.fb_icons li a{
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    border: 1px solid #9caec2;
+}

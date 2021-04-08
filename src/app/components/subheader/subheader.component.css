@@ -1,0 +1,11 @@
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .header {
+    z-index: 9999;
+    padding: 10px 16px;
+    background-color: white;
+  }
+  

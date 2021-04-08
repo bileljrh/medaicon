@@ -24,8 +24,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
-            ],
+              "src/styles.css"            ],
             "scripts": []
           },
           "configurations": {
@@ -119,6 +118,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Fronetnd"
+    }
+  },
+  "defaultProject": "Fronetnd",
+  "cli": {
+    "analytics": "445f8229-f586-4a35-b9e3-7d155bd23d52"
+  }
 }
